@@ -21,4 +21,4 @@ end
 //always reading from the ram, irrespective of clock.
 assign data_out_0 = port_en_0 ? ram[addr_in_0] : 'dZ; 
 assign data_out_1 = port_en_1 ? ram[addr_in_1] : 'dZ; 
-endmodul
+endmodule
